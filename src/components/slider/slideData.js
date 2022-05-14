@@ -1,4 +1,6 @@
-import Slide1 from "../../images/SlideImg1.png";
+import Slide1 from "../../images/slide1.png";
+import Slide2 from "../../images/slide6.png";
+import Slide3 from "../../images/Slide4.png";
 export const slideData = [
   {
     id: 1,
@@ -11,18 +13,18 @@ export const slideData = [
   },
   {
     id: 2,
-    img: Slide1,
+    img: Slide2,
     bg: "fcf1ed",
-    title: "WINTER SALE",
+    title: "AUTUMN COLLECTION",
     description:
       "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
     button: "SHOP NOW",
   },
   {
     id: 3,
-    img: Slide1,
+    img: Slide3,
     bg: "fbf0f4",
-    title: "PUPULAR SALE",
+    title: "LOUNGEWEAR LOVE",
     description:
       "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
     button: "SHOP NOW",
