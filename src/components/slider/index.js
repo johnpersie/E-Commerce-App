@@ -1,6 +1,6 @@
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@mui/icons-material";
 import { useState } from "react";
-import { slideData } from "./slideData";
+import { slideData } from "../../data";
 
 import {
   Arrow,
