@@ -1,6 +1,8 @@
 import React from "react";
 import Announcement from "../../components/announcement";
+import Categories from "../../components/categories";
 import NavBar from "../../components/navBar";
+import Products from "../../components/products";
 import Slider from "../../components/slider";
 
 const Home = () => {
@@ -9,6 +11,8 @@ const Home = () => {
       <Announcement />
       <NavBar />
       <Slider />
+      <Categories />
+      <Products />
     </div>
   );
 };
