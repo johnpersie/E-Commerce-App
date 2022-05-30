@@ -1,3 +1,4 @@
+import { Add, Remove } from "@mui/icons-material";
 import Announcement from "../../components/announcement";
 import NavBar from "../../components/navBar";
 import {
@@ -15,6 +16,10 @@ import {
   FilterColor,
   FilterSize,
   FilterSizeOption,
+  AmountContainer,
+  Amount,
+  AddContainer,
+  Button,
 } from "./productStyled";
 
 const Product = () => {
@@ -53,6 +58,14 @@ const Product = () => {
               </FilterSize>
             </Filter>
           </FilterContainer>
+          <AddContainer>
+            <AmountContainer>
+              <Remove style={{ fontSize: "2.5rem" }} />
+              <Amount>1</Amount>
+              <Add style={{ fontSize: "2.5rem" }} />
+            </AmountContainer>
+            <Button>ADD TO CART</Button>
+          </AddContainer>
         </InfoContainer>
       </Wrapper>
       <></>

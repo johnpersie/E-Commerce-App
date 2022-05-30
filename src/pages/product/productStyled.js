@@ -49,5 +49,35 @@ export const FilterColor = styled.div`
   margin: 0 0.5rem;
   cursor: pointer;
 `;
-export const FilterSize = styled.select``;
+export const FilterSize = styled.select`
+  margin-left: 1rem;
+  padding: 0.5rem;
+`;
 export const FilterSizeOption = styled.option``;
+export const AddContainer = styled.div`
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
+export const AmountContainer = styled.div`
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+`;
+export const Amount = styled.span`
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1rem;
+  border: 1px solid teal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0.5rem;
+`;
+export const Button = styled.button`
+  padding: 1.5rem;
+  border: 1px solid teal;
+  background-color: white;
+  cursor: pointer;
+`;
