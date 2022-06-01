@@ -68,7 +68,6 @@ const Product = () => {
           </AddContainer>
         </InfoContainer>
       </Wrapper>
-      <></>
     </Container>
   );
 };
